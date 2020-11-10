@@ -219,6 +219,7 @@ section{
   width: 55%;
   margin-top: 25%;
   margin-left: 20%;
+  border-radius: 5%;
 }
 .card-right h2{
   padding-top: 50%;
