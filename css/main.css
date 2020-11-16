@@ -10,8 +10,8 @@
 
 
 section{
-  width: 98.5vw;
-  height: 100vh;
+  width: 100vw;
+  height: auto;
   background-color: #F5F5F5;
 }
 
@@ -26,26 +26,26 @@ section{
 
 
 
-.rectangle{
-  height: 5px;
-  width: 150px;
-  background: #15b0c9;
-  margin-left: 8.5%;
-  margin-top: 16%;
-  display: block;
-  position: absolute;
-}
+
+
 
 .home-left{
   /*background-color: red;*/
   width: 40%;
   height: 70vh;
   float: left;
-  margin: 5%;
   font-size: 40px;
+  position: block;
+  margin-left: 5%;
+}
+.rectangle{
+  height: 5px;
+  width: 150px;
+  background: #15b0c9;
+  margin-top: 50%;
+  margin-left: 8.5%;
 }
 .home-left h3{
-  margin-top: 30%;
   font-size: 80px;
 }
 .home-left h3,p{
@@ -66,7 +66,7 @@ section{
 .home-right{
   width: 50%;
   height: 50vh;
-  float: left;
+  float: right;
   margin-top: 5%;
 }
 .front-image{
@@ -112,6 +112,7 @@ section{
   font-size: 20px;
   padding: 2%;
   color: #333333;
+  height: auto;
 }
 .about-right a{
   color: #15b0c9;
@@ -128,6 +129,9 @@ section{
   float: left;
   padding: 2%;
   padding-bottom: 4%;
+  max-height: 60%;
+  overflow: hidden;
+  height: auto;
 }
 #list{
   transition: .3s;
@@ -145,12 +149,13 @@ section{
 .container p{
   font-size: 18px;
   color: #333333;
+  max-height: 60vh;
 }
 
 
 
 .gallery{
-  padding: 5vh;
+  padding: 5%;
   font-size: 0;
   display: -ms-flexbox;
   -ms-flexbox-wrap: wrap;
@@ -176,6 +181,8 @@ section{
 .gallery div img:hover{
   transform: scale(1.01);
 }
+
+
 
 
 
@@ -238,257 +245,79 @@ section{
 
 
 
-/*
 
 
-
-#blog-description{
-  width: 50%;
-  display: flex;
-  flex-direction: column;
+footer{
+  height: 30%;
+  width: 100vw;
+  background-color: #15b0c9;
+}
+.logos{
   align-items: center;
-  margin-top: 25%;
+  justify-content: center;
+  left: 50%;
+  padding-left: 43vw;
+  padding-top: 4%;
+  padding-bottom: 3%;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+.logos img{
+  width: 25%;
+  display: flex;
+}
+.bottom-copyright{
+  font-size: 12;
   font-family: 'Open Sans', sans-serif;
-  color: #15b0c9;
-  font-weight: bolder;
-  position: absolute;
+  color: #414040;
+  text-align: center;
+  margin: 20px;
+}
+.bottom-copyright a:hover{
+  color: #414040;
 }
 
-.blog-title{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 35px;
-  color: #15b0c9;
-}
 
-.description{
-  color: #2a2a2a;
-  font-weight: normal;
-  font-style: 30px;
-}
 
-.slider{
-  width: 576px;
+
+
+.imageGrid {
+  line-height: 0;
+  padding: 2%;
+}
+.imageGrid .tile {
+  width: 32.7%;
+  margin: .2%;
+  min-height:20em;
+  line-height: 1.2;
+  display:inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   overflow: hidden;
-  position: absolute;
-  right: 0;
-  margin: 12% 5%;
-}
-
-#slides{
-  width: calc(960px * 7);
-  animation: glisse 60s infinite;
-}
-
-.slide{
-  float: left;
-}
-
-.slide img{
-  width: 576px;
-}
-
-@keyframes glisse {
-    0%{
-      transform: translateX(0);
-    }
-    14%{
-      transform: translateX(0);
-    }
-    16.6%{
-      transform: translateX(-576px);
-    }
-    31%{
-      transform: translateX(-576px);
-    }
-    33.2%{
-      transform: translateX(-1152px);
-    }
-    47%{
-      transform: translateX(-1152px);
-    }
-    49.6%{
-      transform: translateX(-1728px);
-    }
-    64%{
-      transform: translateX(-1728px);
-    }
-    66.4%{
-      transform: translateX(-2306px);
-    }
-    81%{
-      transform: translateX(-2306px);
-    }
-    83%{
-      transform: translateX(-2880px);
-    }
-    98%{
-      transform: translateX(-2880px);
-    }
-    100%{
-      transform: translateX(-3456px);
-    }
-    114%{
-      transform: translateX(-3456px);
-    }
-    116%{
-      transform: translateX(-4032px);
-    }
-}
-
-
-
-
-
-
-
-#contact{
-  background-color: #4682B4;
-  height: 80%;
-  width: 100%;
-  margin: auto;
-  position: absolute;
-}
-
-.footer{
-  background-color:	#4682B4;
-  width: auto;
-  height: 80%;
-  position: absolute;
-  top: 10%;
-  left: 5%;
-}
-
-
-.dofe-png{
-  width: 200px;
-  background-color:	#4682B4;
   position: relative;
 }
 
 
-.gk2-png{
-  max-width: 70px;
-  background-color:	#4682B4;
-  position: relative;
-  left: 10%;
+
+
+#expedition{
+  width: 100vw;
+  height: auto;
+}
+#expedition h3{
+  padding: 6%;
+  padding-bottom: 0%;
+  font-size: 25px;
+  color: #15b0c9;
+}
+.grid-gallery{
+  display: inline-block;
+  padding: 5%;
+}
+.grid-gallery img{
+  width: 32.9%;
+  margin: .1%;
 }
 
-#footer-description{
-  font-family: 'Open-Sans', sans-serif;
-  background-color: #4682B4;
-  color: #FFF;
-  width: 100%;
-  position: relative;
-  top: 8%;
-}
-
-#socials{
-  background-color: #4682B4;
-  margin-top: 5%;
-}
-
-#socials a {
-  background-color: #4682B4;
-  margin: 10px;
-  left: 0
-}
-#socials img{
-  width: 20px;
-  height: 20px;
-  position: relative;
-  background-color: #4682B4;
-}
-
-.copy{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
-  background-color: #4682B4;
-  color: #FFF;
-  position: relative;
-  top: 40px;
-}
-
-.footer-column-left{
-  float: left; width: 33.333%;
-  padding: 3%;
-  background-color: #4682B4;
-}
-.footer-column-right{
-  float: right; width: 33.333%;
-    padding: 3%;
-    background-color: #4682B4;
-
-}
-.footer-column-center{
-   display: inline-block; width: 33.333%;
-     padding: 3%;
-     background-color: #4682B4;
- }
-.footer-column-center a{
-        display: inline-block;
-        width: 40%;
-}
-
- #links{
-   background-color: #4682B4;
-   position: static;
-   color: #FFF;
-   font-family: 'Open Sans', sans-serif;
-   font-size: 22px;
-   font-weight: bolder;
-   margin-top: 5%;
-   margin-left: 5%;
- }
-
-#link-group{
-  background-color: #4682B4;
-  margin-top: 10%;
-  position: relative;
-  left: 5%;
-}
- .link-text{
-   position: static;
-   background-color: #4682B4;
-   color: #FFF;
-   font-family: 'Open Sans', sans-serif;
-   font-size: 16px;
-   font-weight: normal;
- }
- .link-text::after{
-   content: '';
-   display: block;
-   width: 0;
-   height: 2px;
-   background: #15b0e9;
-   transition: width .3s;
- }
-
- .link-text:hover::after{
-   width: 30%;
-}
-
-#contact-title{
-  background-color: #4682B4;
-  position: static;
-  color: #FFF;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
-  font-weight: bolder;
-  margin-top: 5%;
-}
-
-#adress{
-  background-color: #4682B4;
-  font-family: 'Open Sans', sans-serif;
-  position: relative;
-  margin-top: 10%;
-}
-
-.contact-data{
-  background-color: #4682B4;
-  color: #FFF;
-}
-
-*/
 
 
