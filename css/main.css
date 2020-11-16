@@ -321,3 +321,26 @@ footer{
 
 
 
+#feedback{
+  padding: 5%;
+}
+#feedback h2{
+  padding: 5%;
+}
+.feedback-div h3{
+  padding-left: 7%;
+  padding-top: 2%;
+  color: #0f7f91;
+}
+.feedback-div p{
+  max-width: 80%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+.feedback-div{
+  width: 60%;  /*make 100% on mobile and higher padding*/
+}
+.feedback-div:hover{
+  background-color: #e6e6e6;
+  border-radius: 20px;
+}
