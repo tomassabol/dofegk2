@@ -3,11 +3,10 @@ google.charts.load('current', {'packages':['corechart']});
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Year', 'Počet záujemcov', 'Počet úspešných žiakov'],
-          ['2017',  1000,      400],
-          ['2018',  1170,      460],
-          ['2019',  660,       1120],
-          ['2020',  1030,      540]
+          ['Year', 'Počet účastníkov'],
+          ['2017',     19],
+          ['2018',     57],
+          ['2019',     71]
         ]);
 
         var options = {
