@@ -1,15 +1,14 @@
-const navSlide = () => {
-  const burger = document.querySelector('.burger');
-   const nav = document.querySelector('nav-links');
-   const navLinks = document.querySelectorAll('nav-links li');
+$(document).ready(function(){
+  $("img").click(function(){
+  var t = $(this).attr("src");
+  $(".modal-body").html("<img src='"+t+"' class='modal-img'>");
+  $("#myModal").modal();
+});
 
-   burger.addEventListener('click',()=>{
-    nav.classList.toggle('nav-active');
-   });
-
-   navLinks.forEach((link, index) =>{
-     link.style.animation = 'navLinkFade 0.5s ease forwards ${index/7}s'
-   });
-}
-
-navSlide();
+$("video").click(function(){
+  var v = $("video > source");
+  var t = v.attr("src");
+  $(".modal-body").html("<video class='model-vid' controls><source src='"+t+"' type='video/mp4'></source></video>");
+  $("#myModal").modal();  
+});
+});//EOF Document.ready
