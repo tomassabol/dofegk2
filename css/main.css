@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 *{
@@ -78,6 +79,7 @@ section{
 
 #about{
   padding: 5%;
+  display: inline-flexbox;
 }
 .about-left{
   width: 50%;
@@ -113,6 +115,7 @@ section{
   padding: 2%;
   color: #333333;
   height: auto;
+  font-family: 'Roboto', sans-serif;
 }
 .about-right a{
   color: #15b0c9;
@@ -150,6 +153,7 @@ section{
   font-size: 18px;
   color: #333333;
   max-height: 60vh;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -236,6 +240,7 @@ section{
 .card-right p{
   color: #15b0c9;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .slide:hover{
