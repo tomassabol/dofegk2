@@ -23,12 +23,18 @@ section{
 .logo-image{
   height: 20%;
   width: 20%;
-  margin-left: 12%;
-  margin-top: 3%;
+  display: inline-block;
+  /*margin-left: 12%;
+  margin-top: 3%;*/
 }
+
 
 header{
   min-height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 10%;
 }
 
 
@@ -196,64 +202,51 @@ header{
 
 
 
-
-
-
-
-#grid h3{
+#dofe-team{
   padding: 5%;
-  text-align: center;
-  font-size: 40px;
-  color: #15b0c9;
 }
-.container-grid{
+#dofe-team h3{
+  font-size: 35px;
+  text-align: center;
   padding: 5%;
-  display: -webkit-flex;
-  display: flex;
-  
-  width: 100%;
-  height: 70%;
-  overflow: scroll;
-}
-
-.container-grid > div{
-  padding: 1em;
-  -webkit-flex: 0 0 100%;
-  flex: 0 0 50%;
-}
-
-.card-left{
-  width: 50%;
-  height: 100%;
-  float: left;
-}
-.card-right{
-  width: 50%;
-  height: 100%;
-  float: left;
-}
-.card-left img{
-  height: 50%;
-  width: 55%;
-  margin-top: 25%;
-  margin-left: 20%;
-  border-radius: 5%;
-}
-.card-right h2{
-  padding-top: 50%;
-  font-size: 30px;
-  text-align: center;
-}
-.card-right p{
   color: #15b0c9;
+  font-family: 'Open Sans', sans-serif;
+}
+.team-container{
+  display: flexbox;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+}
+.team-container img{
+  width: 33%;
+  padding: 5px;
+  transition: 0.3s;
+}
+.team-container img:hover{
+  transform: scale(1.01);
 }
 
-.slide:hover{
-  background-color: #e6e6e6;
-  border-radius: 5%;
+
+#contact{
+  padding: 5%;
 }
+#contact h3{
+  text-align: center;
+  font-size: 35px;
+  color: #15b0c9;
+  padding: 5%;
+}
+.contact-container{
+  text-align: center;
+  display: flexbox;
+}
+.contact-container img{
+  width: 40px;
+  padding: 5px;
+}
+.contact-container p{
+  margin-left: -.5%;
+}
+
 
 
 
@@ -263,7 +256,7 @@ footer{
   height: 30%;
   width: 100vw;
   background-color: #15b0c9;
-  background-image: linear-gradient(to right, #0f7f91, #15b0c9 );
+  background-image: linear-gradient(to right,  #15b0c9, #0f7f91, #15b0c9 );
 }
 .logos{
   align-items: center;
@@ -279,14 +272,23 @@ footer{
   display: flex;
 }
 .bottom-copyright{
-  font-size: 12;
-  font-family: 'Open Sans', sans-serif;
-  color: #414040;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  margin: 20px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  color: #F5F5F5;
+  margin: 5px;
+}
+.bottom-copyright a{
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  color: #F5F5F5;
+  text-align: center;
 }
 .bottom-copyright a:hover{
-  color: #414040;
+  color: #F5F5F5;
 }
 
 
@@ -374,6 +376,16 @@ footer{
 .feedback-div:hover{
   background-color: #e6e6e6;
   border-radius: 20px;
+}
+.gold-container{
+  display: flex;
+  text-align: center;
+  color: #0f7f91;
+}
+.gold-div img{
+  width: 30%;
+  border-radius: 20px;
+  padding: 5px;
 }
 
 
