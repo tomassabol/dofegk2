@@ -12,6 +12,18 @@
     .rectangle{
         margin-top: 55%;
     }
+    #menuToggle
+    {
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    
+    z-index: 1;
+    
+    -webkit-user-select: none;
+    user-select: none;
+    }
   }
 
 
