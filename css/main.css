@@ -236,6 +236,7 @@ header{
 .contact-container{
   text-align: center;
   display: flexbox;
+  padding-bottom: 10%;
 }
 .contact-container img{
   width: 40px;
