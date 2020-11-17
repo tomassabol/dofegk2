@@ -24,6 +24,194 @@
     -webkit-user-select: none;
     user-select: none;
     }
+
+
+
+
+    #about{
+        padding: 0%;
+        display: block;
+        text-align: center;
+      }
+    .about-left{
+        display: none;
+    }
+    .about-right{
+        width: 80vw;
+        margin-left: 10%;
+    }
+      .about-right h3{
+        font-size: 35px;
+        font-weight: 900;
+        text-align: center;
+        color: #15b0c9;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .about-right p{
+        font-size: 18px;
+        padding: 2%;
+        color: #333333;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
+      }
+      .about-right a{
+        color: #15b0c9;
+      }
+
+
+
+
+      .container{
+        padding: 0%;
+        padding-top: 6.5%;
+      }
+      .list1, .list2, .list3{
+        width: 100vw;
+        float: left;
+        padding: 0%;
+        padding-bottom: 4%;
+        overflow: hidden;
+        height: auto;
+      }
+      #list{
+        transition: .3s;
+      }
+      #list:hover{
+        background-color: #e6e6e6;
+      }
+      .container h3{
+        text-align: left;
+        padding: 8%;
+        text-align: center;
+        color: #15b0c9;
+        font-size: 33px;
+      }
+      .container p{
+        font-size: 18px;
+        color: #333333;
+        font-family: 'Roboto', sans-serif;
+        width: 85%;
+      }
+
+
+      .gallery{
+        padding: 5%;
+        font-size: 0;
+        display: -ms-flexbox;
+        -ms-flexbox-wrap: wrap;
+        -ms-flexbox-direction: column;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        display: -webkit-box;
+        display: flex;
+      }
+      
+      .gallery div{
+        -webkit-box-flex: auto;
+        -ms-flex: auto;
+        flex: auto;
+        width: 20%;
+        margin: .5vw;
+      }
+      
+      .gallery div img{
+        width: 100%;
+        transition: transform .5s ease;
+      }
+      .gallery div img:hover{
+        transform: scale(1.01);
+      }
+
+
+
+
+
+      #dofe-team{
+        padding: 5%;
+      }
+      #dofe-team h3{
+        font-size: 35px;
+        text-align: center;
+        padding: 10%;
+        color: #15b0c9;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .team-container{
+        display: flexbox;
+        text-align: center;
+      }
+      .team-container img{
+        width: 100%;
+        padding: 1px;
+        transition: 0.3s;
+      }
+      .team-container img:hover{
+        transform: scale(1.01);
+      }
+
+
+      .logos{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flexbox;
+        padding-top: 4%;
+        padding-bottom: 3%;
+        border-bottom: 1px solid rgb(207, 207, 207);
+      }
+      .logos img{
+        width: 20%;
+        display: flex;
+      }
+      .bottom-copyright a{
+        font-size: 9px;
+        font-family: 'Open Sans', sans-serif;
+        color: #F5F5F5;
+        text-align: center;
+      }
+
+
+
+
+      #expedition{
+        width: 100vw;
+        height: auto;
+        padding: 5%;
+      }
+      #expedition h3{
+        padding: 6%;
+        padding-bottom: 0%;
+        font-size: 25px;
+        color: #15b0c9;
+      }
+      .grid-gallery{
+        display: inline-block;
+        padding: 0%;
+      }
+      .grid-gallery img{
+        width: 49%;
+        margin: .1%;
+      }
+
+      #activities{
+          height: 100vh;
+      }
+      #activities p{
+          padding-top: 60%;
+      }
+      #ceremony{
+        height: 100vh;
+      }
+      #activities p{
+        padding-top: 60%;
+      }
+      #report{
+        height: 100vh;
+      }
+      #report p{
+        padding-top: 60%;
+    }
+    
   }
 
 
@@ -33,7 +221,8 @@
           display: none;
       }*/
       .logo-image{
-          width: 40%;
+          width: 50%;
+          padding-left: 0%;
       }
       .rectangle{
         margin-top: 60%;
@@ -44,4 +233,39 @@
       /*{
           display: none;
       }*/
+
+      #expedition{
+        width: 100vw;
+        height: auto;
+        padding: 5%;
+      }
+      #expedition h3{
+        padding: 6%;
+        padding-bottom: 0%;
+        font-size: 25px;
+        color: #15b0c9;
+      }
+      .grid-gallery{
+        display: inline-block;
+        padding: 0%;
+      }
+      .grid-gallery img{
+        width: 100%;
+        margin: .1%;
+      }
+      .feedback-div{
+        width: 100%;  /*make 100% on mobile and higher padding*/
+        padding: 5%;
+      }
+
+      .gold-container{
+        display: flex;
+        text-align: center;
+        color: #0f7f91;
+      }
+      .gold-div img{
+        width: 70%;
+        border-radius: 15px;
+        padding: 5px;
+      }
   }

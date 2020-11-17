@@ -145,7 +145,6 @@ header{
   float: left;
   padding: 2%;
   padding-bottom: 4%;
-  max-height: 60%;
   overflow: hidden;
   height: auto;
 }
@@ -165,7 +164,6 @@ header{
 .container p{
   font-size: 18px;
   color: #333333;
-  max-height: 60vh;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -261,14 +259,14 @@ footer{
 .logos{
   align-items: center;
   justify-content: center;
-  left: 50%;
-  padding-left: 43vw;
+  text-align: center;
+  display: flex;
   padding-top: 4%;
   padding-bottom: 3%;
   border-bottom: 1px solid rgb(207, 207, 207);
 }
 .logos img{
-  width: 25%;
+  width: 15%;
   display: flex;
 }
 .bottom-copyright{
@@ -308,7 +306,6 @@ footer{
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  overflow: hidden;
   position: relative;
 }
 
@@ -398,9 +395,9 @@ footer{
 }
 #activities p{
   padding: 15%;
-  padding-left: 31%;
   font-size: 20px;
   font-family: 'Roboto Mono', monospace;
+  text-align: center;
 }
 
 
@@ -413,7 +410,7 @@ footer{
 }
 #report p{
   padding: 15%;
-  padding-left: 31%;
+  text-align: center;
   font-size: 20px;
   font-family: 'Roboto Mono', monospace;
 }
@@ -427,7 +424,7 @@ footer{
 }
 #ceremony p{
   padding: 15%;
-  padding-left: 31%;
+  text-align: center;
   font-size: 20px;
   font-family: 'Roboto Mono', monospace;
 }
