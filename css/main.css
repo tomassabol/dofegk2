@@ -20,17 +20,11 @@ section{
 }
 
 
-.logo-image{
-  height: 20%;
-  width: 20%;
-  display: inline-block;
-  /*margin-left: 12%;
-  margin-top: 3%;*/
-}
+
 
 
 header{
-  min-height: 20vh;
+  min-height: 15vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
