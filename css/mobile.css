@@ -7,35 +7,33 @@
         margin-bottom: 5%;
     }
     .rectangle{
-        margin-top: 55%;
+        margin-top: 60%;
+        background-color: #32e0ff;
     }
-    #menuToggle
-    {
-    display: block;
-    position: absolute;
-    top: 80px;
-    right: 50px;
-    
-    z-index: 1;
-    
-    -webkit-user-select: none;
-    user-select: none;
+    .rectangle p, h3{
+      color: #e6e6e6;
+      text-shadow: 0 0 100px #2a2a2a;
     }
-
-
-
-
+    .gk2-homepagetext{
+      color: #32e0ff;
+      text-shadow: 0 0 100px #2a2a2a;
+    }
+    #home{
+      background-image: url(https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/121085066_2623296584552152_7380195572621717044_o.jpg?_nc_cat=111&ccb=2&_nc_sid=e3f864&_nc_ohc=OSsP28zY-jsAX--nvyz&_nc_ht=scontent-vie1-1.xx&oh=ad1b79485fd8336e291dc7841e43ac1c&oe=60345247);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
     #about{
         padding: 0%;
         display: block;
         text-align: center;
-      }
+    }
     .about-left{
         display: none;
     }
     .about-right{
-        width: 80vw;
-        margin-left: 10%;
+        width: 100vw;
+        padding: 0%;
     }
       .about-right h3{
         font-size: 35px;
@@ -88,41 +86,16 @@
         color: #333333;
         font-family: 'Roboto', sans-serif;
         width: 85%;
+        padding-bottom: 5%;
+      }
+      .list3 p{
+        padding-bottom: 30%;
       }
 
-
-      .gallery{
-        padding: 5%;
-        font-size: 0;
-        display: -ms-flexbox;
-        -ms-flexbox-wrap: wrap;
-        -ms-flexbox-direction: column;
-        -webkit-flex-flow: row wrap;
-        flex-flow: row wrap;
-        display: -webkit-box;
-        display: flex;
-      }
       
-      .gallery div{
-        -webkit-box-flex: auto;
-        -ms-flex: auto;
-        flex: auto;
-        width: 20%;
-        margin: .5vw;
+      #gallery{
+        display: none;
       }
-      
-      .gallery div img{
-        width: 100%;
-        transition: transform .5s ease;
-      }
-      .gallery div img:hover{
-        transform: scale(1.01);
-      }
-
-
-
-
-
       #dofe-team{
         padding: 5%;
       }
@@ -146,7 +119,13 @@
         transform: scale(1.01);
       }
 
-
+      #contact{
+        padding-top: 30%;
+        padding-bottom: 30%;
+      }
+      #contact h3{
+        padding-bottom: 15%;
+      }
       .logos{
         align-items: center;
         justify-content: center;
@@ -218,7 +197,7 @@
           display: none;
       }*/
       .rectangle{
-        margin-top: 60%;
+        margin-top: 80%;
     }
   }
 
@@ -226,7 +205,9 @@
       /*{
           display: none;
       }*/
-
+      .rectangle{
+        margin-top: 118%;
+      }
       #expedition{
         width: 100vw;
         height: auto;
